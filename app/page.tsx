@@ -19,8 +19,8 @@ export default async function Home() {
         <h2 className="text-xl font-bold">Form Navigation</h2>
         <p>
           The input and button below are wrapped in a form with{" "}
-          <code>action="/second-page" method="get"</code> and the button is{" "}
-          <code>type="submit"</code>
+          <code>action=&quot;/second-page&quot; method=&quot;get&quot;</code>{" "}
+          and the button is <code>type=&quot;submit&quot;</code>
         </p>
         <p>On submit of the form the top-loader is not displayed.</p>
         <form action="/second-page" method="get">
